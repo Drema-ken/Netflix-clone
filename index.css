@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Inter' ,'Trebuchet Ms'; 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: black;
+  color:hsl(0, 100%, 40%);
+  height: max-content;
+  padding-bottom: 10px;
+}
+
+input{
+  color:black;
+  
+}
+
